@@ -31,7 +31,7 @@ public class Zahlenratespiel {
             } while(counter <= 6);
 
             System.out.println("the number was : " + zufallszahl);
-            System.out.println("wanna try again nibba ?\t[1] for yes [2] for no");
+            System.out.println("wanna try again ?\t[1] for yes [2] for no");
             again = sc.nextInt();
             if (again == 1) {
                 counter = 1;
