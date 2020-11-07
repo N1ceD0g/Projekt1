@@ -40,7 +40,7 @@ public class ZahlenratespielFunktion {
         do {
             System.out.flush();
             game();
-            System.out.println("wanna try again nibba (❁´◡`❁) ?\t[1] for yes [2] for no");
+            System.out.println("wanna try again?\t[1] for yes [2] for no");
             again = sc.nextInt();
         } while(again == 1);
 
