@@ -23,7 +23,7 @@ public class Zahlenratespiel {
                     System.out.println("No, number is too high.");
                 } else {
                     if (zufallszahl == guess) {
-                        System.out.println("you won 👍");
+                        System.out.println("you won!");
                         break;
                     }else
                         System.out.println("you lost");
@@ -31,7 +31,7 @@ public class Zahlenratespiel {
             } while(counter <= 6);
 
             System.out.println("the number was : " + zufallszahl);
-            System.out.println("wanna try again nibba (❁´◡`❁) ?\t[1] for yes [2] for no");
+            System.out.println("wanna try again nibba ?\t[1] for yes [2] for no");
             again = sc.nextInt();
             if (again == 1) {
                 counter = 1;
